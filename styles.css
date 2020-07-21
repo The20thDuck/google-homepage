@@ -1,0 +1,36 @@
+input {
+    border-radius: 20px;
+    width: 400px;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    margin-top: 200px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    position: absolute;
+}
+
+#about {
+    left: 1em;
+}
+
+#store {
+    left: 5em;
+}
+
+#gmail {
+    right: 5em;
+}
+
+#images {
+    right: 1em;
+}
