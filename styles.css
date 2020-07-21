@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    margin: 15px 10px 10px 10px;
+    padding: 15px 10px 10px 10px;
     display: flex;
 }
 
@@ -33,6 +33,10 @@ nav div a, nav div div {
     font-size: 13px;
     text-decoration: none;
     color: rgba(0,0,0,0.87);
+}
+
+nav div a:hover {
+    text-decoration: underline;
 }
 
 #dots {
@@ -74,6 +78,10 @@ nav div a, nav div div {
     margin-bottom: 20px;
 }
 
+#search:hover {
+    box-shadow: 0 0 6px 0px rgba(32,33,36,0.28) ;
+}
+
 #magnify {
     fill:rgb(154, 160, 166);
     padding-right: 10px;
@@ -98,7 +106,21 @@ input:focus {
 
 .submit {
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 5px;
     margin: 3px;
     color:rgb(95, 99, 104);
+    border: 1px solid rgb(242, 242, 242);
+}
+
+.submit:hover {
+    background-color:rgb(248, 248, 248);
+    border-color:rgb(198, 198, 198);
+}
+
+#footnav {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: #f2f2f2;
 }
