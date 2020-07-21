@@ -1,36 +1,104 @@
-input {
-    border-radius: 20px;
-    width: 400px;
-}
+
 
 body {
     text-align: center;
+    font-family: arial,sans-serif;
 }
 
-img {
+#google {
     margin-top: 200px;
 }
 
 nav {
-    margin-top: 20px;
+    margin: 15px 10px 10px 10px;
+    display: flex;
 }
 
-nav a {
-    position: absolute;
+.left {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+    align-items: center;
 }
 
-#about {
-    left: 1em;
+.right {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    align-items: center;
 }
 
-#store {
-    left: 5em;
+nav div a, nav div div {
+    margin: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
 }
 
-#gmail {
-    right: 5em;
-}
-
-#images {
+#dots {
     right: 1em;
+    width: 30px;
+    height: 30px;
+    background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    -webkit-background-size: 528px 68px;
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+}
+
+#signin {
+    background: linear-gradient(#4387fd,#4683ea);
+    width: 69.344px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 3px;
+}
+
+#signin a {
+    color: white;
+    font-weight: bold;
+}
+
+
+#search {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    align-items:center;
+    padding: 10px;
+    border-radius: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#magnify {
+    fill:rgb(154, 160, 166);
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+input {
+    border-color: transparent;
+    flex-basis: 100%;
+    flex-shrink: 1;
+}
+
+input:focus {
+    outline: none;
+}
+
+#microphone {
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+}
+
+.submit {
+    padding: 10px;
+    border-radius: 3px;
+    margin: 3px;
+    color:rgb(95, 99, 104);
 }
