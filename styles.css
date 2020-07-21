@@ -6,11 +6,11 @@ body {
 }
 
 #google {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 nav {
-    padding: 15px 10px 10px 10px;
+    padding: 6px;
     display: flex;
 }
 
@@ -63,6 +63,10 @@ nav div a:hover {
     font-weight: bold;
 }
 
+#signin a:hover {
+    text-decoration: none;
+}
+
 
 #search {
     display: flex;
@@ -70,7 +74,7 @@ nav div a:hover {
     border: 1px solid #dfe1e5;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 460px;
     align-items:center;
     padding: 10px;
     border-radius: 22px;
@@ -110,6 +114,7 @@ input:focus {
     margin: 3px;
     color:rgb(95, 99, 104);
     border: 1px solid rgb(242, 242, 242);
+    font-size: 14px;
 }
 
 .submit:hover {
@@ -123,4 +128,9 @@ input:focus {
     left: 0px;
     right: 0px;
     background: #f2f2f2;
+}
+
+#footnav a {
+    font-size: 14px;
+    color: #5f6368;
 }
